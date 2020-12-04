@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +7,11 @@
     <!--I use BULMA it's a framwork css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
+<style>
+</style>
 <body>
 <!--navbar: just look documentation of BULMA-->
-<nav class="navbar has-shadow is-warning ">
+<nav class="navbar is-warning container is-max-desktop">
     <div class="navbar-brand">
         <a href="index.html" class="navbar-item">
             <img src="images/billel.jpg" alt="logo billel">
@@ -29,13 +30,42 @@
         </div>
     </div>
 </nav>
+
 <!--First arcticle-->
-<div>
-    <h1>Notre histoire</h1>
+<div class="container is-max-desktop">
+    <article class="tile is-child box">
+        <div class="content container is-max-desktop">
+            <h1 class="title">Notre histoire</h1>
+            <div>
+                <img src="images/cheval.jpg" alt="cheval">
+            </div>
+            <div class="column">
+                <p>Le premier combat de la SPA créée en 1845 par Etienne Pariset portait sur la protection des chevaux que les cochers parisiens maltraitaient. Au fil du temps, notre action s'est developpée et notre intérêt s'est élargi aux autres éspèces animales, en particulier nos plus proches compagnons, les chiens et les chats. </p>
+            </div>
+            <h2 class="title">Fait marquant...</h2>
+            <div class="tile is-ancestor column">
+                <div>
+                    <img src="images/chrono1.jpg" alt="spa-1845">
+                    <img src="images/chrono3.jpg" alt="spa-1850">
+                    <img src="images/chrono3.jpg" alt="spa-1860">
+                    <img src="images/chrono4.jpg" alt="spa-1903">
+                    <img src="images/chrono5.jpg" alt="spa-1945">
+                    <img src="images/chrono6.jpg" alt="spa-1948">
+                    <img src="images/chrono7.jpg" alt="spa-1976">
+                    <img src="images/chrono8.jpg" alt="spa-1978">
+                    <img src="images/chrono9.jpg" alt="spa-1987">
+                </div>
+            </div>
+        </div>
+    </article>
 </div>
-<div>
-    <img src="" alt="">
-</div>
+
+<!--footer-->
+<!--i can't use css file i don't know for what so i have add style directly in tag-->
+<footer class="footer notification is-warning container is-max-desktop" style="margin-bottom: 0px";>
+    <p>&copy;Created by Billel Sahouli</p>
+</footer>
+
 </body>
 <script src="javascript/toggle.js"></script>
 </html>
