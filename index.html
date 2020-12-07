@@ -4,10 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SPA</title>
+    <!--I use google font for Title style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <!--I use google font for text style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
     <!--I use BULMA it's a framwork css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
+
 </style>
 <body>
 <!--navbar: just look documentation of BULMA-->
@@ -25,7 +33,6 @@
     <div class="navbar-menu is-active" id="navMenu">
         <div class="navbar-start">
             <a href="index.html" class="navbar-item"><small>Acceuil</small></a>
-            <a href="page/actualites.html" class="navbar-item"><small>Actualités</small></a>
             <a href="page/adopter.html" class="navbar-item"><small>Adopté</small></a>
         </div>
     </div>
@@ -41,6 +48,13 @@
             </div>
             <div class="column">
                 <p>Le premier combat de la SPA créée en 1845 par Etienne Pariset portait sur la protection des chevaux que les cochers parisiens maltraitaient. Au fil du temps, notre action s'est developpée et notre intérêt s'est élargi aux autres éspèces animales, en particulier nos plus proches compagnons, les chiens et les chats. </p>
+            </div>
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44653.86806176828!2d4.8698639791015665!3d45.6133216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4dced69c12173%3A0x7efb85cba073c12d!2sLa%20Soci%C3%A9t%C3%A9%20Protectrice%20des%20Animaux%20(SPA)%20-%20Refuge%20de%20Lyon-Marennes!5e0!3m2!1sfr!2sfr!4v1607354009704!5m2!1sfr!2sfr"
+                        width="400" height="400" frameborder="0"
+                        style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0">
+                </iframe>
             </div>
             <h2 class="title">Fait marquant...</h2>
             <div class="tile is-ancestor column">
@@ -62,10 +76,9 @@
 
 <!--footer-->
 <!--i can't use css file i don't know for what so i have add style directly in tag-->
-<footer class="footer notification is-warning container is-max-desktop" style="margin-bottom: 0px";>
-    <p>&copy;Created by Billel Sahouli</p>
+<footer class="footer container is-max-desktop" >
+    <p class="content is-centered">&copy;Created by Billel Sahouli</p>
 </footer>
-
 </body>
 <script src="javascript/toggle.js"></script>
 </html>

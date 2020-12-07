@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>SPA</title>
+    <!--I use google font for Title style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <!--I use google font for text style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <!--I use BULMA it's a framwork css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/adopter-style.css">
 </head>
+
 <body>
-<nav class="navbar has-shadow is-success">
+<!--navbar: just look documentation of BULMA-->
+<nav class="navbar is-warning container is-max-desktop">
     <div class="navbar-brand">
-        <a href="/index.html" class="navbar-item">
+        <a href="../index.html" class="navbar-item">
             <img src="../images/billel.jpg" alt="logo billel">
         </a>
         <a class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -21,13 +31,31 @@
     <div class="navbar-menu is-active" id="navMenu">
         <div class="navbar-start">
             <a href="../index.html" class="navbar-item"><small>Acceuil</small></a>
-            <a href="actualites.html" class="navbar-item"><small>Actualités</small></a>
             <a href="adopter.html" class="navbar-item"><small>Adopté</small></a>
         </div>
     </div>
 </nav>
-<p>ADOPTER</p>
+
+<!--First arcticle-->
+<div class="container is-max-desktop">
+    <h1 id="title-maltraite-h1" class="title">Maltraitances</h1>
+    <div class="img-maltraitance">
+        <img src="../images/animaux-maltraitance.jpg" alt="anim-maltraitance">
+    </div>
+
+    <article>
+        <div>
+            <h2 id="title-maltraite-h2" class="title">Les enquêtes contre la maltraitance</h2>
+        </div>
+    </article>
+
+</div>
+
+<!--footer-->
+<footer class="footer container is-max-desktop">
+    <p class="content is-centered">&copy;Created by Billel Sahouli</p>
+</footer>
+
 </body>
-<!--JS code for open navbar-burger in responsive mode-->
-<script src="/javascript/toggle.js"></script>
-</html>
+
+<script src="../javascript/toggle.js"></script>
