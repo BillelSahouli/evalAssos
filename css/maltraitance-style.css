@@ -1,0 +1,54 @@
+
+#title-maltraite-h1{
+    border: solid 2px #4a4a4a;
+    background-color:#ffdd57 ;
+    color:#4a4a4a;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Forum', cursive;
+}
+
+#title-maltraite-h2, #title-maltraite-h3{
+    border: solid 2px #4a4a4a;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#ffdd57;
+    color:#4a4a4a;
+    padding-bottom: 5px;
+    font-family: 'Forum', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#div-orange-text p strong{
+    color: #ff6600;
+}
+
+@media only screen and (max-width: 600px) {
+    div.video-responsive {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+    .article1-adopt p {
+        margin: 22px 22px;
+    }
+    #title-maltraite-h1, #title-maltraite-h2, #title-maltraite-h3 {
+        margin: 22px 22px;
+    }
+    div.div-1, .div-2, .div-3, .div-4,.div-5, .div-6{
+        margin-top: -14px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    div.video-responsive iframe{
+        width: 960px;
+        height:500px;
+    }
+    div.div-1, .div-2, .div-3, .div-4,.div-5, .div-6{
+        margin-top: 14px;
+    }
+}

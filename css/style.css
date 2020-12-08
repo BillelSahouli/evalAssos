@@ -1,24 +1,17 @@
+@import "maltraitance-style.css";
+
+
 div.column p {
     font-family: 'Cabin Sketch', cursive;
 }
 
-h1.title{
+h1.title, h2.title{
     border: solid 2px #4a4a4a;
     background-color:#ffdd57 ;
     color:#4a4a4a;
     border-radius: 10px;
     text-align: center;
     padding-bottom: 1px;
-    font-family: 'Forum', cursive;
-}
-
-h2.title{
-    border: solid 2px #4a4a4a;
-    text-align: center;
-    border-radius: 10px;
-    background-color:#ffdd57;
-    color:#4a4a4a;
-    padding-bottom: 5px;
     font-family: 'Forum', cursive;
 }
 
