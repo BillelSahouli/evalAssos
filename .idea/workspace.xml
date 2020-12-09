@@ -27,20 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9194a28-a02b-4e62-8b7d-93deb90fd90e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cheval.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chrono9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet-assos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet-assos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +74,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\projet-assos\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\projet-assos" />
+      <recent name="C:\wamp64\www\projet-assos\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\projet-assos\images" />
     </key>
   </component>
@@ -105,7 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607001032128</updated>
       <workItem from="1607001033856" duration="20932000" />
-      <workItem from="1607087671141" duration="13349000" />
+      <workItem from="1607087671141" duration="15052000" />
+      <workItem from="1607258152554" duration="1305000" />
+      <workItem from="1607349434351" duration="6200000" />
+      <workItem from="1607355645045" duration="5084000" />
+      <workItem from="1607437172405" duration="2077000" />
+      <workItem from="1607439264727" duration="8262000" />
+      <workItem from="1607448012891" duration="1888000" />
+      <workItem from="1607519484486" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -141,18 +138,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607008048311" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1607096429461">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607448169442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607096429461" />
-    <state x="203" y="0" width="673" height="1019" key="dock-window-1" timestamp="1607005872643">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607448169442" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1607444942941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="203" y="0" width="673" height="1019" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607005872643" />
-    <state x="943" y="68" width="1636" height="1027" key="dock-window-2" timestamp="1607009103673">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607444942941" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1607358469473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="943" y="68" width="1636" height="1027" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607009103673" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607358469473" />
+    <state x="-7" y="0" width="833" height="1047" key="dock-window-2" timestamp="1607439596478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="833" height="1047" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607439596478" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-3" timestamp="1607009103673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
